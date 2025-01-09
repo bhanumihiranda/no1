@@ -1,0 +1,138 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your YouTube Channel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #1e1e1e;
+            padding: 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            color: #bb86fc;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 10px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        .subscribe {
+            background-color: #1e1e1e;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .subscribe input[type="email"] {
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 3px;
+            width: 70%;
+            max-width: 400px;
+        }
+
+        .subscribe button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #bb86fc;
+            color: #ffffff;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        .subscribe button:hover {
+            background-color: #9a66cc;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1e1e1e;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your YouTube Channel</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#videos">Videos</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="home">
+            <h2>Welcome to Our Channel</h2>
+            <p>Explore exciting content, tutorials, and entertainment curated just for you!</p>
+        </section>
+
+        <section id="videos">
+            <h2>Latest Videos</h2>
+            <p>Check out our latest uploads and trending videos.</p>
+            <!-- You can embed videos here using <iframe> -->
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Learn more about our journey, mission, and passion for creating amazing content.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>We'd love to hear from you! Drop us a message or follow us on social media.</p>
+            <div class="subscribe">
+                <h3>Subscribe to Our Newsletter</h3>
+                <form>
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Your YouTube Channel. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
